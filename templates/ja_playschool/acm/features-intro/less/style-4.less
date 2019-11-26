@@ -1,0 +1,79 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+ 
+
+// ------------------------------------
+// FEATURES INTRO STYLE 2
+// ------------------------------------
+.acm-features {
+	&.style-4 {
+    text-align: center;
+
+    // Features Images
+    .features-image {
+      .row {
+        + .row {
+          margin-top: @grid-gutter-width * 2;
+
+          // Mobile view
+          @media (max-width: @screen-md-max) {
+            margin-top: @grid-gutter-width;
+          }
+        }
+
+        .col-xs-12 {
+          + .col-xs-12 {
+            // Mobile view
+            @media (max-width: @screen-xs-max) {
+              margin-top: @grid-gutter-width;
+            }
+          }
+        }
+      }
+
+      .image {
+        background: @white;
+        border: @grid-gutter-width / 2 solid @white;
+        border-radius: 28px;
+        overflow: hidden;
+        .transition(500ms all);
+
+        img {
+          border-radius: @grid-gutter-width / 2;
+          width: 100%;
+        }
+
+        &:hover {
+          transform: rotate(0)!important;
+          -webkit-transform: rotate(0)!important;
+        }
+      }
+
+      // Title
+      h4 {
+        margin-bottom: @t3-global-margin / 4;
+      }
+
+      .description {
+        color: @brand-meta;
+        font-size: @font-size-h5;
+      }
+    }
+
+    // Features Content
+    .features-content {
+      padding: @t3-global-padding * 2;
+
+      p {
+        margin-top: @grid-gutter-width;
+      }
+
+      .features-action {
+        margin-top: @t3-global-margin * 2;
+      }
+    }
+  }
+}
+
+

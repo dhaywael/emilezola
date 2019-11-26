@@ -1,0 +1,160 @@
+// Core variables and mixins
+//@import "variables.less";	//T3 Note: Already in T3 vars.less
+//@import "mixins.less";	//T3 Note: Already in T3 vars.less
+@import "vars.less"; // Modify this for custom colors, font-sizes, etc
+
+// Reset
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/normalize.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/print.less";
+
+// Core CSS
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/scaffolding.less";
+//@import "../../../plugins/system/t3/base-bs3/bootstrap/less/type.less";       //T3 Note: Already in t3/typography.less;
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/code.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/grid.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/tables.less";
+
+@import "../../../plugins/system/t3/base-bs3/less/legacy-forms.less";           //T3 Note: Extend styles for Legacy classes. 
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/forms.less";
+
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/buttons.less";
+
+@import "../../../plugins/system/t3/base-bs3/less/legacy-navigation.less";      //T3 Note: Extend styles for Legacy classes.
+
+// Components
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/component-animations.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/glyphicons.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/dropdowns.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/button-groups.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/input-groups.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/navs.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/navbar.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/breadcrumbs.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/pagination.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/pager.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/labels.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/badges.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/jumbotron.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/thumbnails.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/alerts.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/progress-bars.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/media.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/list-group.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/panels.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/wells.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/close.less";
+
+// Components w/ JavaScript
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/modals.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/tooltip.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/popovers.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/carousel.less";
+
+// Utility classes
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/utilities.less";
+@import "../../../plugins/system/t3/base-bs3/bootstrap/less/responsive-utilities.less";
+
+// Carousel Boostrap 4
+.carousel-item {
+  position: relative;
+  display: none;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  transition: -webkit-transform 0.6s ease;
+  transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+.carousel-item-next,
+.carousel-item-prev {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+@supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
+  .carousel-item-next.carousel-item-left,
+  .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+.carousel-item-next,
+.active.carousel-item-right {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
+  .carousel-item-next,
+  .active.carousel-item-right {
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+}
+
+.carousel-item-prev,
+.active.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
+  .carousel-item-prev,
+  .active.carousel-item-left {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.carousel-control-prev:focus, 
+.carousel-control-prev:hover,
+.carousel-control-next:focus,
+.carousel-control-next:hover {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}

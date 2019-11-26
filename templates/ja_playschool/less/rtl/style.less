@@ -1,0 +1,190 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+ 
+// RTL STYLES
+// ------------------------------------------------------
+// OffCanvas
+.off-canvas-left.t3-off-canvas {
+	width: 0;
+}
+
+.off-canvas-open {
+	.off-canvas-left.t3-off-canvas {
+		width: @t3-off-canvas-width;
+	}
+}
+
+// Icon
+.fa {
+	&.fa-arrow-right::before {
+		content: "\f060";
+	}
+
+	&.fa-arrow-left::before {
+		content: "\f061";
+	}
+
+	&.fa-angle-left::before {
+		content: "\f105";
+	}
+
+	&.fa-angle-right::before {
+		content: "\f104";
+	}
+}
+
+// MISC STYLE
+// --------------
+.nav-pills > li > a::before {
+	content: "\f104";
+	float: right;
+	top: 5px;
+}
+
+.list-check > li::before {
+	float: right;
+	line-height: 2;
+}
+
+.languageswitcherload {
+  ul {
+    float: left;
+  }
+}
+
+.sub-heading span,
+.t3-footnav .t3-module .module-title span {
+	mask-size: 100% 100%;
+	-webkit-mask-size: 100% 100%;
+}
+
+.head-right .search .form-control {
+	padding: 0 0 0 @t3-global-padding * 2;
+
+	&:focus {
+		padding-right: @t3-global-padding;
+	}
+}
+
+.com_contact .popover {
+	right: auto!important;
+
+	&.left .arrow {
+		transform: rotate(180deg);
+		-webkit-transform: rotate(180deg);
+		right: auto;
+		left: 100%;
+	}
+}
+
+// ACM STYLE
+.owl-stage-outer {
+	direction: ltr;
+
+	.owl-stage {
+		direction: rtl;
+	}
+}
+
+.acm-features.style-1 .owl-nav,
+.acm-gallery .owl-nav {
+	direction: ltr;
+}
+
+// ACM Slideshow
+div.t3-slideshow::before {
+	background-size: 100% 100%;
+}
+
+div.acm-slideshow .owl-carousel .item .slider-content,
+div.acm-features.style-1 .features-item-inner .feature-action,
+div.latestnews.list .item-wrap .img-wrap .create,
+div.image-wrap .published {
+	left: 50%;
+	right: auto;
+}
+
+div.acm-slideshow .owl-carousel .owl-nav > div {
+	left: @grid-gutter-width;
+	right: auto;
+
+	&.owl-next {
+		left: auto;
+		right: @grid-gutter-width;
+	}
+}
+
+// ACM Features
+div.acm-features.style-1 .owl-nav > div {
+	left: auto;
+	right: 100%;
+	margin-left: 0;
+	margin-right: @t3-global-margin / 2;
+
+	&.owl-next {
+		left: 100%;
+		right: auto;
+		margin-right: 0;
+		margin-left: @t3-global-margin / 2;
+	}
+}
+
+div.acm-features.style-3 .features-image img {
+	right: auto;
+	left: 50%;
+}
+
+div.acm-features.style-3 .features-content::before {
+	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+}
+
+
+div.acm-features.style-3 .content-left .features-content::before {
+	transform: rotateY(0);
+	-webkit-transform: rotateY(0);
+}
+
+// ACM Gallery
+div.acm-gallery .owl-nav > div {
+	margin-right: @grid-gutter-width / 2;
+
+	// Large Screen View
+	@media (min-width: 1300px) {
+		left: auto;
+		right: 100%;
+		margin-left: 0;
+		margin-right: @grid-gutter-width;
+	}
+
+	&.owl-next {
+		margin-left: @grid-gutter-width / 2;
+		margin-right: 0;
+
+		// Large Screen View
+		@media (min-width: 1300px) {
+			margin-left: @grid-gutter-width;
+			right: auto;
+			left: 100%;
+		}
+	}
+}
+
+// JOMSOCIAL
+.joms-menu span, .joms-menu--user span {
+	right: auto;
+	left: 0;
+}
+
+.cProfile .joms-form__group {
+	.clearfix > div {
+		float: right!important;
+		margin-right: 0!important;
+		margin-left: @t3-global-margin / 2;
+	}
+
+	.joms-avatar--stream {
+		padding-right: @t3-global-padding / 2;
+	}
+}

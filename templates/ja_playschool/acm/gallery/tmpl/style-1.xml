@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <title>Gallery Style 1</title>
+	<sampledata></sampledata>
+	<fields name="features-intro">
+		<fieldset name="basic" label="GALLERY_BASIC_LABEL" description="GALLERY_BASIC_DESC">			
+			<field name="columns" type="list" label="GALLERY_COLUMNS_LABEL" description="GALLERY_COLUMNS_DESC" >
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="6">6</option>
+			</field>
+
+			<field name="rows" type="list" label="GALLERY_ROWS_LABEL" description="GALLERY_ROWS_DESC" >
+				<option value="0">1</option>
+				<option value="1">2</option>
+			</field>
+		</fieldset>
+	
+		<fieldset name="section-features" label="GALLERY_SECTION_LABEL" description="GALLERY_SECTION_DESC">
+			<field name="data" type="jalist">
+				<item name="img" type="media" default="" label="GALLERY_IMAGE_LABEL" description="GALLERY_IMAGE_LABEL_DESC"  />
+				<item name="img-rotate" type="text" default="" hint="2deg" label="GALLERY_ROTATE_IMAGE_LABEL" description="GALLERY_ROTATE_IMAGE_LABEL_DESC"  />
+			</field>
+		</fieldset>
+		
+  </fields>
+</form>

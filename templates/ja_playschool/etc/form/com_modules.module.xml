@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="custom-field" label="Module options" description="">
+			<field name="sub-heading" type="textarea" default="" label="TPL_SUB_HEADING_LABEL" description="TPL_SUB_HEADING_DESC" filter="RAW" />
+
+      <field name="color-module" type="color" default="#fdf9ef" label="TPL_BACKGROUND_COLOR_MODULE_LABEL" description="TPL_BACKGROUND_COLOR_MODULE_DESC" filter="RAW" />
+
+      <field name="bg-module" type="media" default="" label="TPL_BACKGROUND_IMAGE_MODULE_LABEL" description="TPL_BACKGROUND_IMAGE_MODULE_DESC" filter="RAW" />
+
+      <field name="color-title" type="color" default="#454339" label="TPL_COLOR_TITLE_LABEL" description="TPL_COLOR_TITLE_DESC" filter="RAW" />
+
+      <field name="color-heading" type="color" default="#d3bd88" label="TPL_COLOR_HEADING_LABEL" description="TPL_COLOR_HEADING_DESC" filter="RAW" />
+
+      <field name="bg-color-heading" type="color" default="#fbf0d1" label="TPL_BG_COLOR_HEADING_LABEL" description="TPL_BG_COLOR_HEADING_DESC" filter="RAW" />
+
+      <field name="padding-top" type="radio"
+        class="btn-group btn-group-yesno"
+        default="0"
+        label="TPL_SPACE_TOP_LABEL"
+        description="TPL_SPACE_TOP_DESC">
+        <option value="0">JNO</option>
+        <option value="1">JYES</option>
+      </field>
+
+      <field name="padding-bottom" type="radio"
+        class="btn-group btn-group-yesno"
+        default="0"
+        label="TPL_SPACE_BOTTOM_LABEL"
+        description="TPL_SPACE_BOTTOM_DESC">
+        <option value="0">JNO</option>
+        <option value="1">JYES</option>
+      </field>
+
+			<field name="module-width" type="radio"
+				class="btn-group btn-group-yesno"
+				default="1"
+        label="TPL_ENABLE_FULL_WIDTH"
+        description="TPL_ENABLE_FULL_WIDTH_DESC">
+        <option value="0">JNO</option>
+        <option value="1">JYES</option>
+  		</field>
+    </fieldset>
+
+    <fieldset name="custom-field-1" label="Module Pattern" description="">
+      <field name="pattern-top" type="media" default="" label="TPL_BACKGROUND_PATTERN_TOP_LABEL" description="TPL_BACKGROUND_PATTERN_TOP_DESC" filter="RAW" />
+      <field name="pattern-height-top" type="text" default="16px" label="TPL_BACKGROUND_PATTERN_HIEGHT_TOP_LABEL" description="TPL_BACKGROUND_PATTERN_HIEGHT_TOP_DESC" filter="RAW" />
+
+      <field name="pattern-bottom" type="media" default="" label="TPL_BACKGROUND_PATTERN_BOTTOM_LABEL" description="TPL_BACKGROUND_PATTERN_BOTTOM_DESC" filter="RAW" />
+      <field name="pattern-height-bottom" type="text" default="16px" label="TPL_BACKGROUND_PATTERN_HIEGHT_BOTTOM_LABEL" description="TPL_BACKGROUND_PATTERN_HIEGHT_BOTTOM_DESC" filter="RAW" />
+    </fieldset>
+  </fields>
+</form>

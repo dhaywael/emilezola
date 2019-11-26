@@ -1,0 +1,1864 @@
+#community-wrap {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#community-wrap a {
+  color: #ffffff;
+}
+#community-wrap a:hover,
+#community-wrap a:focus,
+#community-wrap a:active {
+  color: #d9d9d9;
+}
+#community-wrap .jomsocial {
+  background: #1f1f1f;
+  padding: 0;
+}
+#community-wrap .joms-page__title {
+  color: #1f1f1f;
+  font-size: 40px;
+}
+#community-wrap .joms-avatar img,
+#community-wrap .joms-avatar--stream img,
+#community-wrap .joms-avatar--comment img,
+#community-wrap .joms-avatar--focus img,
+#community-wrap .joms-avatar--video img {
+  border-radius: 13px;
+  border: 0;
+  padding: 0;
+}
+#community-wrap .joms-input,
+#community-wrap .joms-input[type="text"],
+#community-wrap .joms-input[type="password"],
+#community-wrap .joms-select--wrapper,
+#community-wrap .joms-textarea {
+  border-color: #1f1f1f;
+  border-width: 2px;
+  background-color: #2d2d2d;
+  border-radius: 10px;
+}
+#community-wrap .joms-input:focus,
+#community-wrap .joms-input[type="text"]:focus,
+#community-wrap .joms-input[type="password"]:focus,
+#community-wrap .joms-select--wrapper:focus,
+#community-wrap .joms-textarea:focus {
+  border-color: #050505;
+}
+#community-wrap .joms-select option {
+  padding: 3px 10px;
+}
+#community-wrap .joms-button--primary,
+#community-wrap .joms-button--add,
+#community-wrap .joms-button--login,
+#community-wrap .joms-button__approve,
+#community-wrap .joms-postbox-tab .joms-postbox-save,
+#community-wrap .joms-postbox-tab .joms-postbox-done,
+#community-wrap .joms-focus__button--add {
+  color: #ffffff;
+  background-color: #4cbffa;
+  border-color: #4cbffa;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 13px;
+  font-family: "Londrina Solid", Helvetica, Arial, sans-serif;
+}
+#community-wrap .joms-button--primary:hover,
+#community-wrap .joms-button--add:hover,
+#community-wrap .joms-button--login:hover,
+#community-wrap .joms-button__approve:hover,
+#community-wrap .joms-postbox-tab .joms-postbox-save:hover,
+#community-wrap .joms-postbox-tab .joms-postbox-done:hover,
+#community-wrap .joms-focus__button--add:hover,
+#community-wrap .joms-button--primary:focus,
+#community-wrap .joms-button--add:focus,
+#community-wrap .joms-button--login:focus,
+#community-wrap .joms-button__approve:focus,
+#community-wrap .joms-postbox-tab .joms-postbox-save:focus,
+#community-wrap .joms-postbox-tab .joms-postbox-done:focus,
+#community-wrap .joms-focus__button--add:focus,
+#community-wrap .joms-button--primary.focus,
+#community-wrap .joms-button--add.focus,
+#community-wrap .joms-button--login.focus,
+#community-wrap .joms-button__approve.focus,
+#community-wrap .joms-postbox-tab .joms-postbox-save.focus,
+#community-wrap .joms-postbox-tab .joms-postbox-done.focus,
+#community-wrap .joms-focus__button--add.focus,
+#community-wrap .joms-button--primary:active,
+#community-wrap .joms-button--add:active,
+#community-wrap .joms-button--login:active,
+#community-wrap .joms-button__approve:active,
+#community-wrap .joms-postbox-tab .joms-postbox-save:active,
+#community-wrap .joms-postbox-tab .joms-postbox-done:active,
+#community-wrap .joms-focus__button--add:active,
+#community-wrap .joms-button--primary.active,
+#community-wrap .joms-button--add.active,
+#community-wrap .joms-button--login.active,
+#community-wrap .joms-button__approve.active,
+#community-wrap .joms-postbox-tab .joms-postbox-save.active,
+#community-wrap .joms-postbox-tab .joms-postbox-done.active,
+#community-wrap .joms-focus__button--add.active,
+.open > .dropdown-toggle#community-wrap .joms-button--primary,
+.open > .dropdown-toggle#community-wrap .joms-button--add,
+.open > .dropdown-toggle#community-wrap .joms-button--login,
+.open > .dropdown-toggle#community-wrap .joms-button__approve,
+.open > .dropdown-toggle#community-wrap .joms-postbox-tab .joms-postbox-save,
+.open > .dropdown-toggle#community-wrap .joms-postbox-tab .joms-postbox-done,
+.open > .dropdown-toggle#community-wrap .joms-focus__button--add {
+  color: #ffffff;
+  background-color: #1aadf9;
+  border-color: #10aaf8;
+}
+#community-wrap .joms-button--primary:active,
+#community-wrap .joms-button--add:active,
+#community-wrap .joms-button--login:active,
+#community-wrap .joms-button__approve:active,
+#community-wrap .joms-postbox-tab .joms-postbox-save:active,
+#community-wrap .joms-postbox-tab .joms-postbox-done:active,
+#community-wrap .joms-focus__button--add:active,
+#community-wrap .joms-button--primary.active,
+#community-wrap .joms-button--add.active,
+#community-wrap .joms-button--login.active,
+#community-wrap .joms-button__approve.active,
+#community-wrap .joms-postbox-tab .joms-postbox-save.active,
+#community-wrap .joms-postbox-tab .joms-postbox-done.active,
+#community-wrap .joms-focus__button--add.active,
+.open > .dropdown-toggle#community-wrap .joms-button--primary,
+.open > .dropdown-toggle#community-wrap .joms-button--add,
+.open > .dropdown-toggle#community-wrap .joms-button--login,
+.open > .dropdown-toggle#community-wrap .joms-button__approve,
+.open > .dropdown-toggle#community-wrap .joms-postbox-tab .joms-postbox-save,
+.open > .dropdown-toggle#community-wrap .joms-postbox-tab .joms-postbox-done,
+.open > .dropdown-toggle#community-wrap .joms-focus__button--add {
+  background-image: none;
+}
+#community-wrap .joms-button--primary.disabled,
+#community-wrap .joms-button--add.disabled,
+#community-wrap .joms-button--login.disabled,
+#community-wrap .joms-button__approve.disabled,
+#community-wrap .joms-postbox-tab .joms-postbox-save.disabled,
+#community-wrap .joms-postbox-tab .joms-postbox-done.disabled,
+#community-wrap .joms-focus__button--add.disabled,
+#community-wrap .joms-button--primary[disabled],
+#community-wrap .joms-button--add[disabled],
+#community-wrap .joms-button--login[disabled],
+#community-wrap .joms-button__approve[disabled],
+#community-wrap .joms-postbox-tab .joms-postbox-save[disabled],
+#community-wrap .joms-postbox-tab .joms-postbox-done[disabled],
+#community-wrap .joms-focus__button--add[disabled],
+fieldset[disabled] #community-wrap .joms-button--primary,
+fieldset[disabled] #community-wrap .joms-button--add,
+fieldset[disabled] #community-wrap .joms-button--login,
+fieldset[disabled] #community-wrap .joms-button__approve,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-save,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-done,
+fieldset[disabled] #community-wrap .joms-focus__button--add,
+#community-wrap .joms-button--primary.disabled:hover,
+#community-wrap .joms-button--add.disabled:hover,
+#community-wrap .joms-button--login.disabled:hover,
+#community-wrap .joms-button__approve.disabled:hover,
+#community-wrap .joms-postbox-tab .joms-postbox-save.disabled:hover,
+#community-wrap .joms-postbox-tab .joms-postbox-done.disabled:hover,
+#community-wrap .joms-focus__button--add.disabled:hover,
+#community-wrap .joms-button--primary[disabled]:hover,
+#community-wrap .joms-button--add[disabled]:hover,
+#community-wrap .joms-button--login[disabled]:hover,
+#community-wrap .joms-button__approve[disabled]:hover,
+#community-wrap .joms-postbox-tab .joms-postbox-save[disabled]:hover,
+#community-wrap .joms-postbox-tab .joms-postbox-done[disabled]:hover,
+#community-wrap .joms-focus__button--add[disabled]:hover,
+fieldset[disabled] #community-wrap .joms-button--primary:hover,
+fieldset[disabled] #community-wrap .joms-button--add:hover,
+fieldset[disabled] #community-wrap .joms-button--login:hover,
+fieldset[disabled] #community-wrap .joms-button__approve:hover,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-save:hover,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-done:hover,
+fieldset[disabled] #community-wrap .joms-focus__button--add:hover,
+#community-wrap .joms-button--primary.disabled:focus,
+#community-wrap .joms-button--add.disabled:focus,
+#community-wrap .joms-button--login.disabled:focus,
+#community-wrap .joms-button__approve.disabled:focus,
+#community-wrap .joms-postbox-tab .joms-postbox-save.disabled:focus,
+#community-wrap .joms-postbox-tab .joms-postbox-done.disabled:focus,
+#community-wrap .joms-focus__button--add.disabled:focus,
+#community-wrap .joms-button--primary[disabled]:focus,
+#community-wrap .joms-button--add[disabled]:focus,
+#community-wrap .joms-button--login[disabled]:focus,
+#community-wrap .joms-button__approve[disabled]:focus,
+#community-wrap .joms-postbox-tab .joms-postbox-save[disabled]:focus,
+#community-wrap .joms-postbox-tab .joms-postbox-done[disabled]:focus,
+#community-wrap .joms-focus__button--add[disabled]:focus,
+fieldset[disabled] #community-wrap .joms-button--primary:focus,
+fieldset[disabled] #community-wrap .joms-button--add:focus,
+fieldset[disabled] #community-wrap .joms-button--login:focus,
+fieldset[disabled] #community-wrap .joms-button__approve:focus,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-save:focus,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-done:focus,
+fieldset[disabled] #community-wrap .joms-focus__button--add:focus,
+#community-wrap .joms-button--primary.disabled.focus,
+#community-wrap .joms-button--add.disabled.focus,
+#community-wrap .joms-button--login.disabled.focus,
+#community-wrap .joms-button__approve.disabled.focus,
+#community-wrap .joms-postbox-tab .joms-postbox-save.disabled.focus,
+#community-wrap .joms-postbox-tab .joms-postbox-done.disabled.focus,
+#community-wrap .joms-focus__button--add.disabled.focus,
+#community-wrap .joms-button--primary[disabled].focus,
+#community-wrap .joms-button--add[disabled].focus,
+#community-wrap .joms-button--login[disabled].focus,
+#community-wrap .joms-button__approve[disabled].focus,
+#community-wrap .joms-postbox-tab .joms-postbox-save[disabled].focus,
+#community-wrap .joms-postbox-tab .joms-postbox-done[disabled].focus,
+#community-wrap .joms-focus__button--add[disabled].focus,
+fieldset[disabled] #community-wrap .joms-button--primary.focus,
+fieldset[disabled] #community-wrap .joms-button--add.focus,
+fieldset[disabled] #community-wrap .joms-button--login.focus,
+fieldset[disabled] #community-wrap .joms-button__approve.focus,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-save.focus,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-done.focus,
+fieldset[disabled] #community-wrap .joms-focus__button--add.focus,
+#community-wrap .joms-button--primary.disabled:active,
+#community-wrap .joms-button--add.disabled:active,
+#community-wrap .joms-button--login.disabled:active,
+#community-wrap .joms-button__approve.disabled:active,
+#community-wrap .joms-postbox-tab .joms-postbox-save.disabled:active,
+#community-wrap .joms-postbox-tab .joms-postbox-done.disabled:active,
+#community-wrap .joms-focus__button--add.disabled:active,
+#community-wrap .joms-button--primary[disabled]:active,
+#community-wrap .joms-button--add[disabled]:active,
+#community-wrap .joms-button--login[disabled]:active,
+#community-wrap .joms-button__approve[disabled]:active,
+#community-wrap .joms-postbox-tab .joms-postbox-save[disabled]:active,
+#community-wrap .joms-postbox-tab .joms-postbox-done[disabled]:active,
+#community-wrap .joms-focus__button--add[disabled]:active,
+fieldset[disabled] #community-wrap .joms-button--primary:active,
+fieldset[disabled] #community-wrap .joms-button--add:active,
+fieldset[disabled] #community-wrap .joms-button--login:active,
+fieldset[disabled] #community-wrap .joms-button__approve:active,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-save:active,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-done:active,
+fieldset[disabled] #community-wrap .joms-focus__button--add:active,
+#community-wrap .joms-button--primary.disabled.active,
+#community-wrap .joms-button--add.disabled.active,
+#community-wrap .joms-button--login.disabled.active,
+#community-wrap .joms-button__approve.disabled.active,
+#community-wrap .joms-postbox-tab .joms-postbox-save.disabled.active,
+#community-wrap .joms-postbox-tab .joms-postbox-done.disabled.active,
+#community-wrap .joms-focus__button--add.disabled.active,
+#community-wrap .joms-button--primary[disabled].active,
+#community-wrap .joms-button--add[disabled].active,
+#community-wrap .joms-button--login[disabled].active,
+#community-wrap .joms-button__approve[disabled].active,
+#community-wrap .joms-postbox-tab .joms-postbox-save[disabled].active,
+#community-wrap .joms-postbox-tab .joms-postbox-done[disabled].active,
+#community-wrap .joms-focus__button--add[disabled].active,
+fieldset[disabled] #community-wrap .joms-button--primary.active,
+fieldset[disabled] #community-wrap .joms-button--add.active,
+fieldset[disabled] #community-wrap .joms-button--login.active,
+fieldset[disabled] #community-wrap .joms-button__approve.active,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-save.active,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-done.active,
+fieldset[disabled] #community-wrap .joms-focus__button--add.active {
+  background-color: #4cbffa;
+  border-color: #4cbffa;
+}
+#community-wrap .joms-button--primary .badge,
+#community-wrap .joms-button--add .badge,
+#community-wrap .joms-button--login .badge,
+#community-wrap .joms-button__approve .badge,
+#community-wrap .joms-postbox-tab .joms-postbox-save .badge,
+#community-wrap .joms-postbox-tab .joms-postbox-done .badge,
+#community-wrap .joms-focus__button--add .badge {
+  color: #4cbffa;
+  background-color: #ffffff;
+}
+#community-wrap .joms-button--neutral,
+#community-wrap .joms-button--privacy,
+#community-wrap .joms-button--more,
+#community-wrap .joms-button--comment,
+#community-wrap .joms-button__reject,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel,
+#community-wrap .joms-focus__button--options {
+  color: #ffffff !important;
+  background-color: #2d2d2d !important;
+  border-color: #1f1f1f !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 13px;
+  font-family: "Londrina Solid", Helvetica, Arial, sans-serif;
+}
+#community-wrap .joms-button--neutral:hover,
+#community-wrap .joms-button--privacy:hover,
+#community-wrap .joms-button--more:hover,
+#community-wrap .joms-button--comment:hover,
+#community-wrap .joms-button__reject:hover,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel:hover,
+#community-wrap .joms-focus__button--options:hover,
+#community-wrap .joms-button--neutral:focus,
+#community-wrap .joms-button--privacy:focus,
+#community-wrap .joms-button--more:focus,
+#community-wrap .joms-button--comment:focus,
+#community-wrap .joms-button__reject:focus,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel:focus,
+#community-wrap .joms-focus__button--options:focus,
+#community-wrap .joms-button--neutral.focus,
+#community-wrap .joms-button--privacy.focus,
+#community-wrap .joms-button--more.focus,
+#community-wrap .joms-button--comment.focus,
+#community-wrap .joms-button__reject.focus,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel.focus,
+#community-wrap .joms-focus__button--options.focus,
+#community-wrap .joms-button--neutral:active,
+#community-wrap .joms-button--privacy:active,
+#community-wrap .joms-button--more:active,
+#community-wrap .joms-button--comment:active,
+#community-wrap .joms-button__reject:active,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel:active,
+#community-wrap .joms-focus__button--options:active,
+#community-wrap .joms-button--neutral.active,
+#community-wrap .joms-button--privacy.active,
+#community-wrap .joms-button--more.active,
+#community-wrap .joms-button--comment.active,
+#community-wrap .joms-button__reject.active,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel.active,
+#community-wrap .joms-focus__button--options.active,
+.open > .dropdown-toggle#community-wrap .joms-button--neutral,
+.open > .dropdown-toggle#community-wrap .joms-button--privacy,
+.open > .dropdown-toggle#community-wrap .joms-button--more,
+.open > .dropdown-toggle#community-wrap .joms-button--comment,
+.open > .dropdown-toggle#community-wrap .joms-button__reject,
+.open > .dropdown-toggle#community-wrap .joms-postbox-tab .joms-postbox-cancel,
+.open > .dropdown-toggle#community-wrap .joms-focus__button--options {
+  color: #ffffff !important;
+  background-color: #141414 !important;
+  border-color: #000000 !important;
+}
+#community-wrap .joms-button--neutral:active,
+#community-wrap .joms-button--privacy:active,
+#community-wrap .joms-button--more:active,
+#community-wrap .joms-button--comment:active,
+#community-wrap .joms-button__reject:active,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel:active,
+#community-wrap .joms-focus__button--options:active,
+#community-wrap .joms-button--neutral.active,
+#community-wrap .joms-button--privacy.active,
+#community-wrap .joms-button--more.active,
+#community-wrap .joms-button--comment.active,
+#community-wrap .joms-button__reject.active,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel.active,
+#community-wrap .joms-focus__button--options.active,
+.open > .dropdown-toggle#community-wrap .joms-button--neutral,
+.open > .dropdown-toggle#community-wrap .joms-button--privacy,
+.open > .dropdown-toggle#community-wrap .joms-button--more,
+.open > .dropdown-toggle#community-wrap .joms-button--comment,
+.open > .dropdown-toggle#community-wrap .joms-button__reject,
+.open > .dropdown-toggle#community-wrap .joms-postbox-tab .joms-postbox-cancel,
+.open > .dropdown-toggle#community-wrap .joms-focus__button--options {
+  background-image: none;
+}
+#community-wrap .joms-button--neutral.disabled,
+#community-wrap .joms-button--privacy.disabled,
+#community-wrap .joms-button--more.disabled,
+#community-wrap .joms-button--comment.disabled,
+#community-wrap .joms-button__reject.disabled,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel.disabled,
+#community-wrap .joms-focus__button--options.disabled,
+#community-wrap .joms-button--neutral[disabled],
+#community-wrap .joms-button--privacy[disabled],
+#community-wrap .joms-button--more[disabled],
+#community-wrap .joms-button--comment[disabled],
+#community-wrap .joms-button__reject[disabled],
+#community-wrap .joms-postbox-tab .joms-postbox-cancel[disabled],
+#community-wrap .joms-focus__button--options[disabled],
+fieldset[disabled] #community-wrap .joms-button--neutral,
+fieldset[disabled] #community-wrap .joms-button--privacy,
+fieldset[disabled] #community-wrap .joms-button--more,
+fieldset[disabled] #community-wrap .joms-button--comment,
+fieldset[disabled] #community-wrap .joms-button__reject,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-cancel,
+fieldset[disabled] #community-wrap .joms-focus__button--options,
+#community-wrap .joms-button--neutral.disabled:hover,
+#community-wrap .joms-button--privacy.disabled:hover,
+#community-wrap .joms-button--more.disabled:hover,
+#community-wrap .joms-button--comment.disabled:hover,
+#community-wrap .joms-button__reject.disabled:hover,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel.disabled:hover,
+#community-wrap .joms-focus__button--options.disabled:hover,
+#community-wrap .joms-button--neutral[disabled]:hover,
+#community-wrap .joms-button--privacy[disabled]:hover,
+#community-wrap .joms-button--more[disabled]:hover,
+#community-wrap .joms-button--comment[disabled]:hover,
+#community-wrap .joms-button__reject[disabled]:hover,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel[disabled]:hover,
+#community-wrap .joms-focus__button--options[disabled]:hover,
+fieldset[disabled] #community-wrap .joms-button--neutral:hover,
+fieldset[disabled] #community-wrap .joms-button--privacy:hover,
+fieldset[disabled] #community-wrap .joms-button--more:hover,
+fieldset[disabled] #community-wrap .joms-button--comment:hover,
+fieldset[disabled] #community-wrap .joms-button__reject:hover,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-cancel:hover,
+fieldset[disabled] #community-wrap .joms-focus__button--options:hover,
+#community-wrap .joms-button--neutral.disabled:focus,
+#community-wrap .joms-button--privacy.disabled:focus,
+#community-wrap .joms-button--more.disabled:focus,
+#community-wrap .joms-button--comment.disabled:focus,
+#community-wrap .joms-button__reject.disabled:focus,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel.disabled:focus,
+#community-wrap .joms-focus__button--options.disabled:focus,
+#community-wrap .joms-button--neutral[disabled]:focus,
+#community-wrap .joms-button--privacy[disabled]:focus,
+#community-wrap .joms-button--more[disabled]:focus,
+#community-wrap .joms-button--comment[disabled]:focus,
+#community-wrap .joms-button__reject[disabled]:focus,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel[disabled]:focus,
+#community-wrap .joms-focus__button--options[disabled]:focus,
+fieldset[disabled] #community-wrap .joms-button--neutral:focus,
+fieldset[disabled] #community-wrap .joms-button--privacy:focus,
+fieldset[disabled] #community-wrap .joms-button--more:focus,
+fieldset[disabled] #community-wrap .joms-button--comment:focus,
+fieldset[disabled] #community-wrap .joms-button__reject:focus,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-cancel:focus,
+fieldset[disabled] #community-wrap .joms-focus__button--options:focus,
+#community-wrap .joms-button--neutral.disabled.focus,
+#community-wrap .joms-button--privacy.disabled.focus,
+#community-wrap .joms-button--more.disabled.focus,
+#community-wrap .joms-button--comment.disabled.focus,
+#community-wrap .joms-button__reject.disabled.focus,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel.disabled.focus,
+#community-wrap .joms-focus__button--options.disabled.focus,
+#community-wrap .joms-button--neutral[disabled].focus,
+#community-wrap .joms-button--privacy[disabled].focus,
+#community-wrap .joms-button--more[disabled].focus,
+#community-wrap .joms-button--comment[disabled].focus,
+#community-wrap .joms-button__reject[disabled].focus,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel[disabled].focus,
+#community-wrap .joms-focus__button--options[disabled].focus,
+fieldset[disabled] #community-wrap .joms-button--neutral.focus,
+fieldset[disabled] #community-wrap .joms-button--privacy.focus,
+fieldset[disabled] #community-wrap .joms-button--more.focus,
+fieldset[disabled] #community-wrap .joms-button--comment.focus,
+fieldset[disabled] #community-wrap .joms-button__reject.focus,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-cancel.focus,
+fieldset[disabled] #community-wrap .joms-focus__button--options.focus,
+#community-wrap .joms-button--neutral.disabled:active,
+#community-wrap .joms-button--privacy.disabled:active,
+#community-wrap .joms-button--more.disabled:active,
+#community-wrap .joms-button--comment.disabled:active,
+#community-wrap .joms-button__reject.disabled:active,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel.disabled:active,
+#community-wrap .joms-focus__button--options.disabled:active,
+#community-wrap .joms-button--neutral[disabled]:active,
+#community-wrap .joms-button--privacy[disabled]:active,
+#community-wrap .joms-button--more[disabled]:active,
+#community-wrap .joms-button--comment[disabled]:active,
+#community-wrap .joms-button__reject[disabled]:active,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel[disabled]:active,
+#community-wrap .joms-focus__button--options[disabled]:active,
+fieldset[disabled] #community-wrap .joms-button--neutral:active,
+fieldset[disabled] #community-wrap .joms-button--privacy:active,
+fieldset[disabled] #community-wrap .joms-button--more:active,
+fieldset[disabled] #community-wrap .joms-button--comment:active,
+fieldset[disabled] #community-wrap .joms-button__reject:active,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-cancel:active,
+fieldset[disabled] #community-wrap .joms-focus__button--options:active,
+#community-wrap .joms-button--neutral.disabled.active,
+#community-wrap .joms-button--privacy.disabled.active,
+#community-wrap .joms-button--more.disabled.active,
+#community-wrap .joms-button--comment.disabled.active,
+#community-wrap .joms-button__reject.disabled.active,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel.disabled.active,
+#community-wrap .joms-focus__button--options.disabled.active,
+#community-wrap .joms-button--neutral[disabled].active,
+#community-wrap .joms-button--privacy[disabled].active,
+#community-wrap .joms-button--more[disabled].active,
+#community-wrap .joms-button--comment[disabled].active,
+#community-wrap .joms-button__reject[disabled].active,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel[disabled].active,
+#community-wrap .joms-focus__button--options[disabled].active,
+fieldset[disabled] #community-wrap .joms-button--neutral.active,
+fieldset[disabled] #community-wrap .joms-button--privacy.active,
+fieldset[disabled] #community-wrap .joms-button--more.active,
+fieldset[disabled] #community-wrap .joms-button--comment.active,
+fieldset[disabled] #community-wrap .joms-button__reject.active,
+fieldset[disabled] #community-wrap .joms-postbox-tab .joms-postbox-cancel.active,
+fieldset[disabled] #community-wrap .joms-focus__button--options.active {
+  background-color: #2d2d2d !important;
+  border-color: #1f1f1f !important;
+}
+#community-wrap .joms-button--neutral .badge,
+#community-wrap .joms-button--privacy .badge,
+#community-wrap .joms-button--more .badge,
+#community-wrap .joms-button--comment .badge,
+#community-wrap .joms-button__reject .badge,
+#community-wrap .joms-postbox-tab .joms-postbox-cancel .badge,
+#community-wrap .joms-focus__button--options .badge {
+  color: #2d2d2d !important;
+  background-color: #ffffff !important;
+}
+#community-wrap .joms-form__group .joms-button--neutral:nth-child(2) {
+  margin-left: 10px;
+}
+#community-wrap .joms-button__next,
+#community-wrap .joms-button--secondary,
+#community-wrap .joms-button--signup,
+#community-wrap .joms-focus__button--message {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 13px;
+}
+#community-wrap .joms-button__next:hover,
+#community-wrap .joms-button--secondary:hover,
+#community-wrap .joms-button--signup:hover,
+#community-wrap .joms-focus__button--message:hover,
+#community-wrap .joms-button__next:focus,
+#community-wrap .joms-button--secondary:focus,
+#community-wrap .joms-button--signup:focus,
+#community-wrap .joms-focus__button--message:focus,
+#community-wrap .joms-button__next.focus,
+#community-wrap .joms-button--secondary.focus,
+#community-wrap .joms-button--signup.focus,
+#community-wrap .joms-focus__button--message.focus,
+#community-wrap .joms-button__next:active,
+#community-wrap .joms-button--secondary:active,
+#community-wrap .joms-button--signup:active,
+#community-wrap .joms-focus__button--message:active,
+#community-wrap .joms-button__next.active,
+#community-wrap .joms-button--secondary.active,
+#community-wrap .joms-button--signup.active,
+#community-wrap .joms-focus__button--message.active,
+.open > .dropdown-toggle#community-wrap .joms-button__next,
+.open > .dropdown-toggle#community-wrap .joms-button--secondary,
+.open > .dropdown-toggle#community-wrap .joms-button--signup,
+.open > .dropdown-toggle#community-wrap .joms-focus__button--message {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #419641;
+}
+#community-wrap .joms-button__next:active,
+#community-wrap .joms-button--secondary:active,
+#community-wrap .joms-button--signup:active,
+#community-wrap .joms-focus__button--message:active,
+#community-wrap .joms-button__next.active,
+#community-wrap .joms-button--secondary.active,
+#community-wrap .joms-button--signup.active,
+#community-wrap .joms-focus__button--message.active,
+.open > .dropdown-toggle#community-wrap .joms-button__next,
+.open > .dropdown-toggle#community-wrap .joms-button--secondary,
+.open > .dropdown-toggle#community-wrap .joms-button--signup,
+.open > .dropdown-toggle#community-wrap .joms-focus__button--message {
+  background-image: none;
+}
+#community-wrap .joms-button__next.disabled,
+#community-wrap .joms-button--secondary.disabled,
+#community-wrap .joms-button--signup.disabled,
+#community-wrap .joms-focus__button--message.disabled,
+#community-wrap .joms-button__next[disabled],
+#community-wrap .joms-button--secondary[disabled],
+#community-wrap .joms-button--signup[disabled],
+#community-wrap .joms-focus__button--message[disabled],
+fieldset[disabled] #community-wrap .joms-button__next,
+fieldset[disabled] #community-wrap .joms-button--secondary,
+fieldset[disabled] #community-wrap .joms-button--signup,
+fieldset[disabled] #community-wrap .joms-focus__button--message,
+#community-wrap .joms-button__next.disabled:hover,
+#community-wrap .joms-button--secondary.disabled:hover,
+#community-wrap .joms-button--signup.disabled:hover,
+#community-wrap .joms-focus__button--message.disabled:hover,
+#community-wrap .joms-button__next[disabled]:hover,
+#community-wrap .joms-button--secondary[disabled]:hover,
+#community-wrap .joms-button--signup[disabled]:hover,
+#community-wrap .joms-focus__button--message[disabled]:hover,
+fieldset[disabled] #community-wrap .joms-button__next:hover,
+fieldset[disabled] #community-wrap .joms-button--secondary:hover,
+fieldset[disabled] #community-wrap .joms-button--signup:hover,
+fieldset[disabled] #community-wrap .joms-focus__button--message:hover,
+#community-wrap .joms-button__next.disabled:focus,
+#community-wrap .joms-button--secondary.disabled:focus,
+#community-wrap .joms-button--signup.disabled:focus,
+#community-wrap .joms-focus__button--message.disabled:focus,
+#community-wrap .joms-button__next[disabled]:focus,
+#community-wrap .joms-button--secondary[disabled]:focus,
+#community-wrap .joms-button--signup[disabled]:focus,
+#community-wrap .joms-focus__button--message[disabled]:focus,
+fieldset[disabled] #community-wrap .joms-button__next:focus,
+fieldset[disabled] #community-wrap .joms-button--secondary:focus,
+fieldset[disabled] #community-wrap .joms-button--signup:focus,
+fieldset[disabled] #community-wrap .joms-focus__button--message:focus,
+#community-wrap .joms-button__next.disabled.focus,
+#community-wrap .joms-button--secondary.disabled.focus,
+#community-wrap .joms-button--signup.disabled.focus,
+#community-wrap .joms-focus__button--message.disabled.focus,
+#community-wrap .joms-button__next[disabled].focus,
+#community-wrap .joms-button--secondary[disabled].focus,
+#community-wrap .joms-button--signup[disabled].focus,
+#community-wrap .joms-focus__button--message[disabled].focus,
+fieldset[disabled] #community-wrap .joms-button__next.focus,
+fieldset[disabled] #community-wrap .joms-button--secondary.focus,
+fieldset[disabled] #community-wrap .joms-button--signup.focus,
+fieldset[disabled] #community-wrap .joms-focus__button--message.focus,
+#community-wrap .joms-button__next.disabled:active,
+#community-wrap .joms-button--secondary.disabled:active,
+#community-wrap .joms-button--signup.disabled:active,
+#community-wrap .joms-focus__button--message.disabled:active,
+#community-wrap .joms-button__next[disabled]:active,
+#community-wrap .joms-button--secondary[disabled]:active,
+#community-wrap .joms-button--signup[disabled]:active,
+#community-wrap .joms-focus__button--message[disabled]:active,
+fieldset[disabled] #community-wrap .joms-button__next:active,
+fieldset[disabled] #community-wrap .joms-button--secondary:active,
+fieldset[disabled] #community-wrap .joms-button--signup:active,
+fieldset[disabled] #community-wrap .joms-focus__button--message:active,
+#community-wrap .joms-button__next.disabled.active,
+#community-wrap .joms-button--secondary.disabled.active,
+#community-wrap .joms-button--signup.disabled.active,
+#community-wrap .joms-focus__button--message.disabled.active,
+#community-wrap .joms-button__next[disabled].active,
+#community-wrap .joms-button--secondary[disabled].active,
+#community-wrap .joms-button--signup[disabled].active,
+#community-wrap .joms-focus__button--message[disabled].active,
+fieldset[disabled] #community-wrap .joms-button__next.active,
+fieldset[disabled] #community-wrap .joms-button--secondary.active,
+fieldset[disabled] #community-wrap .joms-button--signup.active,
+fieldset[disabled] #community-wrap .joms-focus__button--message.active {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+#community-wrap .joms-button__next .badge,
+#community-wrap .joms-button--secondary .badge,
+#community-wrap .joms-button--signup .badge,
+#community-wrap .joms-focus__button--message .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+#community-wrap .joms-button--signup {
+  font-family: "Londrina Solid", Helvetica, Arial, sans-serif;
+}
+#community-wrap .joms-button--signup svg {
+  bottom: 2px;
+}
+#community-wrap .joms-module__wrapper--stacked {
+  margin-bottom: 0;
+}
+#community-wrap .joms-module__wrapper,
+#community-wrap .joms-module__wrapper--stacked .joms-module--stacked {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+#community-wrap .joms-module__wrapper .joms-button--link,
+#community-wrap .joms-module__wrapper--stacked .joms-module--stacked .joms-button--link {
+  background: #f7f7f7;
+  border-radius: 10px;
+  color: #ffffff;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 24px;
+  font-family: "Londrina Solid", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+#community-wrap .joms-module__wrapper .joms-button--link small,
+#community-wrap .joms-module__wrapper--stacked .joms-module--stacked .joms-button--link small {
+  font-size: 13px;
+}
+#community-wrap .joms-module__wrapper .joms-button--link:hover,
+#community-wrap .joms-module__wrapper--stacked .joms-module--stacked .joms-button--link:hover,
+#community-wrap .joms-module__wrapper .joms-button--link:focus,
+#community-wrap .joms-module__wrapper--stacked .joms-module--stacked .joms-button--link:focus,
+#community-wrap .joms-module__wrapper .joms-button--link:active,
+#community-wrap .joms-module__wrapper--stacked .joms-module--stacked .joms-button--link:active {
+  background: #eaeaea;
+}
+#community-wrap .joms-module__wrapper .joms-gap,
+#community-wrap .joms-module__wrapper--stacked .joms-module--stacked .joms-gap {
+  display: none;
+}
+#community-wrap .joms-activity-filter {
+  background: #ffffff;
+  border: 0;
+  border-radius: 10px;
+}
+#community-wrap .joms-activity-filter .joms-activity-filter-status {
+  font-weight: 500;
+}
+#community-wrap .joms-module--stacked .joms-module__header:empty {
+  display: none;
+}
+#community-wrap .joms-online a::after {
+  background: #00cc66;
+  color: #00cc66;
+  left: -2px;
+  right: auto;
+  height: 12px;
+  width: 12px;
+}
+#community-wrap .joms-no-touch .joms-icon--add,
+#community-wrap .joms-no-touch .joms-comment__reply .joms-icon--add {
+  left: 35px;
+}
+#community-wrap .joms-form__group.has-privacy .joms-dropdown,
+#community-wrap .joms-form__group.has-privacy .joms-popover {
+  left: 0;
+  right: auto;
+}
+#community-wrap .joms-blankslate {
+  background: transparent;
+}
+#community-wrap .joms-right {
+  float: left;
+}
+#community-wrap .joms-text--light,
+#community-wrap .joms-text--bold {
+  color: #5a5a5a;
+  font-size: 14px;
+}
+#community-wrap .joms-text--title {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+#community-wrap .joms-focus__header__actions--desktop a {
+  color: #ffffff;
+  font-size: 15px;
+}
+#community-wrap .joms-focus__header__actions--desktop svg {
+  height: 15px;
+}
+#community-wrap .joms-focus__title a {
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-button--add {
+    position: static;
+  }
+}
+#community-wrap .joms-ribbon__wrapper {
+  right: 0;
+  left: auto;
+}
+#community-wrap .joms-ribbon__wrapper .joms-ribbon {
+  right: -22px;
+  left: auto;
+}
+#community-wrap select,
+#community-wrap input[type="radio"],
+#community-wrap input[type="checkbox"] {
+  display: inline-block;
+  padding-right: 5px;
+}
+@media (min-width: 480px) {
+  #community-wrap .joms-list--video .joms-list__item {
+    margin-right: 1%;
+    margin-left: 0;
+  }
+  #community-wrap .joms-list--video .joms-list__item:first-child,
+  #community-wrap .joms-list--video .joms-list__item:nth-child(3n+1) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 767px) {
+  #community-wrap .joms-sortings .joms-select--wrapper:nth-child(2n+1) {
+    margin-right: 2%;
+    margin-left: 0;
+  }
+}
+#community-wrap .joms-subnav--desktop > ul > li {
+  border-left: 1px solid rgba(0, 0, 0, 0.06);
+  border-right: 0;
+}
+#community-wrap .joms-subnav--desktop > ul > li.joms-right {
+  border-left: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.06);
+}
+#community-wrap .joms-landing__image {
+  border-radius: 16px 16px 0 0;
+}
+#community-wrap .joms-js-form--login a {
+  float: left;
+  margin-right: 12px;
+}
+#community-wrap .joms-checkbox span {
+  color: #bbbbbb;
+  font-weight: 400;
+}
+#community-wrap .joms-checkbox span label {
+  font-weight: 400;
+}
+#community-wrap.jomsocial-wrapper.rtl.show-menu .jomsocial {
+  -webkit-transform: translateX(-220px);
+  -ms-transform: translateX(-220px);
+  transform: translateX(-220px);
+}
+#community-wrap.jomsocial-wrapper.rtl.show-menu--user .jomsocial {
+  -webkit-transform: translateX(220px);
+  -ms-transform: translateX(220px);
+  transform: translateX(220px);
+}
+#community-wrap .joms-menu {
+  right: -220px;
+  left: auto;
+}
+#community-wrap .joms-menu--user {
+  right: auto;
+  left: -220px;
+}
+#community-wrap .joms-hcard__info {
+  background: linear-gradient(transparent, #000000);
+  z-index: 1;
+}
+#community-wrap .joms-hcard__info-content .reset-gap {
+  color: #ffffff;
+}
+#community-wrap .joms-hcard__badges {
+  background-image: -webkit-linear-gradient(top, #5bc4fa 0%, #4cbffa 100%);
+  background-image: -o-linear-gradient(top, #5bc4fa 0%, #4cbffa 100%);
+  background-image: linear-gradient(to bottom, #5bc4fa 0%, #4cbffa 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc4fa', endColorstr='#ff4cbffa', GradientType=0);
+  color: #ffffff;
+}
+#community-wrap .picker__header > select {
+  display: inline-block;
+}
+#community-wrap .joms-activity-filter .reset-gap li[data-filter="__filter__"]:hover {
+  background-color: transparent;
+}
+#community-wrap .joms-module__header {
+  border-bottom: 1px solid #2d2d2d;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 24px 24px;
+  text-transform: uppercase;
+  text-align: right;
+}
+#community-wrap .joms-sidebar .joms-tab__bar {
+  background: transparent;
+  clear: both;
+  margin-bottom: 24px;
+}
+#community-wrap .joms-sidebar .joms-tab__bar a[href="#joms-group--discussion"],
+#community-wrap .joms-sidebar .joms-tab__bar a[href="#joms-group--announcement"] {
+  float: none;
+  margin-bottom: 0;
+  margin-left: 8px;
+  display: inline-block;
+}
+#community-wrap .joms-sidebar .joms-tab__bar a[href="#joms-group--discussion"] .joms-tab__bar--button,
+#community-wrap .joms-sidebar .joms-tab__bar a[href="#joms-group--announcement"] .joms-tab__bar--button {
+  display: inherit;
+  vertical-align: middle;
+}
+#community-wrap .joms-sidebar .joms-tab__bar a {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background-color: #2d2d2d;
+  color: #ffffff;
+  margin-left: 8px;
+  float: right;
+  margin-bottom: 8px;
+}
+#community-wrap .joms-sidebar .joms-tab__bar a.active {
+  color: #ffffff;
+  background: #4cbffa;
+}
+#community-wrap .joms-sidebar .joms-tab__bar a .add {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#community-wrap .joms-sidebar .joms-tab__content {
+  background: #ffffff;
+  border-radius: 0 0 16px 16px;
+  padding: 0;
+}
+#community-wrap .joms-sidebar .joms-tab__content .joms-stream__header {
+  padding: 0;
+}
+#community-wrap .joms-popover {
+  border-width: 1px;
+  border-radius: 16px;
+  padding: 24px;
+  z-index: 999;
+}
+#community-wrap .joms-popover a.joms-button--neutral {
+  background: #4cbffa !important;
+  color: #ffffff !important;
+}
+#community-wrap .joms-popover a.joms-button--neutral:hover {
+  background: #1aadf9 !important;
+  color: #ffffff !important;
+}
+#community-wrap .joms-popover .joms-js--noremove:hover {
+  background: transparent;
+}
+#community-wrap .joms-list--event h4.reset-gap {
+  font-size: 16px;
+}
+@media (min-width: 992px) {
+  #community-wrap .joms-body {
+    margin-right: -16px;
+    margin-left: -16px;
+  }
+  #community-wrap .joms-sidebar {
+    padding-right: 16px;
+    padding-left: 16px;
+    width: 25%;
+  }
+  #community-wrap .joms-main {
+    padding-right: 16px;
+    padding-left: 16px;
+    width: 75%;
+  }
+  #community-wrap .joms-main.joms-main--full {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+@media (max-width: 991px) {
+  #community-wrap .joms-main {
+    margin-bottom: 32px;
+  }
+}
+#community-wrap .joms-main .joms-tab__bar {
+  border-radius: 16px;
+  overflow: hidden;
+}
+#community-wrap .joms-main .joms-tab__bar a {
+  background: #ffffff;
+  border-bottom: 1px solid transparent;
+  font-weight: 500;
+}
+#community-wrap .joms-main .joms-tab__bar a.active {
+  background: #4cbffa;
+  color: #ffffff;
+}
+#community-wrap .joms-landing {
+  margin-bottom: 32px;
+}
+#community-wrap .joms-landing .joms-landing__content {
+  background: linear-gradient(transparent, #000000);
+  padding: 32px;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-landing .joms-landing__content {
+    padding: 24px;
+  }
+}
+#community-wrap .joms-landing .joms-landing__action {
+  border-radius: 0 0 16px 16px;
+  padding: 32px;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-landing .joms-landing__action {
+    padding: 24px;
+  }
+}
+#community-wrap .joms-landing .joms-landing__text h2 {
+  font-size: 60px;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-landing .joms-landing__text h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 991px) {
+  #community-wrap .joms-landing .joms-landing__text {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 480px) {
+  #community-wrap .joms-landing .joms-landing__text {
+    display: block !important;
+  }
+  #community-wrap .joms-landing .joms-landing__text p {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  #community-wrap .joms-landing .joms-landing__signup {
+    text-align: left;
+  }
+}
+#community-wrap .joms-landing .joms-input--append .joms-input[type="text"],
+#community-wrap .joms-landing .joms-input--append .joms-input[type="password"] {
+  height: 48px;
+  padding: 12px;
+}
+#community-wrap .joms-landing .joms-input--append svg {
+  display: none;
+}
+#community-wrap .joms-landing .joms-login .login-facebook {
+  max-width: 200px;
+}
+#community-wrap .joms-landing .joms-login .login-facebook > span {
+  height: 32px;
+  line-height: 32px;
+}
+#community-wrap .joms-landing .joms-login .login-facebook > span .fa {
+  font-size: 14px;
+  height: 32px;
+  line-height: 32px;
+  width: 32px;
+}
+#community-wrap .joms-landing .joms-account {
+  float: left;
+  margin-top: 6px;
+}
+@media (max-width: 480px) {
+  #community-wrap .joms-landing .joms-account {
+    float: right;
+  }
+}
+#community-wrap .joms-landing .joms-account a {
+  border-bottom: 1px dotted #878787;
+  color: #5a5a5a;
+  margin-right: 12px;
+}
+#community-wrap .joms-landing .joms-account a:hover,
+#community-wrap .joms-landing .joms-account a:focus,
+#community-wrap .joms-landing .joms-account a:active {
+  color: #4cbffa;
+}
+#community-wrap .joms-toolbar--desktop {
+  background: #ffffff;
+  border: 0;
+  border-radius: 16px;
+  margin-bottom: 32px;
+}
+#community-wrap .joms-toolbar--desktop > ul > li {
+  padding: 12px;
+}
+#community-wrap .joms-toolbar--desktop > ul > li a {
+  color: #4b4b4b;
+}
+#community-wrap .joms-toolbar {
+  background: #ffffff;
+}
+#community-wrap li.joms-right:hover {
+  background: inherit;
+}
+#community-wrap .joms-postbox {
+  border: 0;
+  border-radius: 16px;
+  margin-bottom: 32px;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-postbox {
+    margin-bottom: 24px;
+  }
+}
+#community-wrap .joms-postbox .input::-moz-placeholder {
+  color: #5a5a5a;
+  opacity: 1;
+}
+#community-wrap .joms-postbox .input:-ms-input-placeholder {
+  color: #5a5a5a;
+}
+#community-wrap .joms-postbox .input::-webkit-input-placeholder {
+  color: #5a5a5a;
+}
+#community-wrap .joms-postbox .joms-postbox-input,
+#community-wrap .joms-postbox .joms-postbox-inner-panel,
+#community-wrap .joms-postbox .joms-postbox-photo {
+  padding: 24px;
+  padding-top: 70px;
+  min-height: 150px;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-postbox .joms-postbox-input,
+  #community-wrap .joms-postbox .joms-postbox-inner-panel,
+  #community-wrap .joms-postbox .joms-postbox-photo {
+    padding: 12px;
+    padding-top: 70px;
+  }
+}
+#community-wrap .joms-postbox .joms-postbox-video .joms-postbox-input,
+#community-wrap .joms-postbox .joms-postbox-event .joms-postbox-input,
+#community-wrap .joms-postbox .joms-postbox-photo .joms-postbox-input {
+  padding-top: 24px;
+  min-height: 50px;
+}
+#community-wrap .joms-postbox .joms-postbox-content {
+  background: transparent;
+}
+#community-wrap .joms-postbox .joms-postbox-content .input,
+#community-wrap .joms-postbox .joms-postbox-content .joms-textarea {
+  background: transparent;
+  border: 0;
+}
+#community-wrap .joms-postbox .joms-postbox-content .joms-postbox-tab {
+  background: #ffffff;
+  border-top: 1px dotted #2d2d2d;
+  border-radius: 0 0 16px 16px;
+  display: block !important;
+  padding: 24px 24px;
+}
+#community-wrap .joms-postbox .joms-postbox-content .joms-postbox-tab li {
+  background: #f7f7f7;
+  border-radius: 50%;
+  padding: 0;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin-left: 6px;
+  width: 32px;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-postbox .joms-postbox-content .joms-postbox-tab li {
+    background: transparent;
+    height: auto;
+    width: auto;
+  }
+}
+#community-wrap .joms-postbox .joms-postbox-content .joms-postbox-tab li span {
+  display: none !important;
+}
+#community-wrap .joms-postbox .joms-postbox-content .joms-postbox-tab li svg {
+  fill: #4b4b4b;
+}
+#community-wrap .joms-postbox .joms-postbox-content .joms-postbox-tab li:hover,
+#community-wrap .joms-postbox .joms-postbox-content .joms-postbox-tab li:focus,
+#community-wrap .joms-postbox .joms-postbox-content .joms-postbox-tab li:active {
+  background: #ededed;
+}
+#community-wrap .joms-postbox .joms-postbox-content .joms-postbox-tab .joms-postbox-action {
+  bottom: 12px;
+  left: 24px;
+}
+#community-wrap .joms-postbox .joms-postbox-tab-root {
+  background: transparent;
+  border: 0;
+  display: block !important;
+  position: absolute;
+  padding: 24px;
+  top: 0;
+  right: 0;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-postbox .joms-postbox-tab-root {
+    padding: 12px;
+  }
+}
+#community-wrap .joms-postbox .joms-postbox-tab-root li {
+  background: #f7f7f7;
+  border-radius: 10px;
+  color: #5a5a5a;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 4px 15px;
+  margin-left: 6px;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-postbox .joms-postbox-tab-root li {
+    padding: 4px 10px;
+  }
+}
+#community-wrap .joms-postbox .joms-postbox-tab-root li svg {
+  fill: #4b4b4b;
+  margin-left: 2px;
+}
+#community-wrap .joms-postbox .joms-postbox-tab-root li span {
+  color: #5a5a5a;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+#community-wrap .joms-postbox .joms-postbox-tab-root li.active,
+#community-wrap .joms-postbox .joms-postbox-tab-root li:hover,
+#community-wrap .joms-postbox .joms-postbox-tab-root li:focus,
+#community-wrap .joms-postbox .joms-postbox-tab-root li:active {
+  background-image: -webkit-linear-gradient(top, #5bc4fa 0%, #4cbffa 100%);
+  background-image: -o-linear-gradient(top, #5bc4fa 0%, #4cbffa 100%);
+  background-image: linear-gradient(to bottom, #5bc4fa 0%, #4cbffa 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc4fa', endColorstr='#ff4cbffa', GradientType=0);
+}
+#community-wrap .joms-postbox .joms-postbox-tab-root li.active span,
+#community-wrap .joms-postbox .joms-postbox-tab-root li:hover span,
+#community-wrap .joms-postbox .joms-postbox-tab-root li:focus span,
+#community-wrap .joms-postbox .joms-postbox-tab-root li:active span,
+#community-wrap .joms-postbox .joms-postbox-tab-root li.active svg,
+#community-wrap .joms-postbox .joms-postbox-tab-root li:hover svg,
+#community-wrap .joms-postbox .joms-postbox-tab-root li:focus svg,
+#community-wrap .joms-postbox .joms-postbox-tab-root li:active svg {
+  color: #ffffff;
+  fill: #ffffff;
+}
+#community-wrap .joms-stream {
+  border-radius: 16px;
+  margin-bottom: 24px !important;
+}
+#community-wrap .joms-stream .joms-media__thumbnail {
+  display: table;
+  width: 100%;
+}
+#community-wrap .joms-stream .joms-media__body {
+  background: #ffffff;
+  border: 1px solid #2d2d2d;
+  padding: 24px;
+}
+#community-wrap .joms-stream .joms-media__body .joms-media__desc {
+  border: 0;
+  color: #5a5a5a;
+  padding: 0;
+  margin: 12px 0 0 0;
+}
+#community-wrap .joms-stream__header {
+  padding: 24px;
+  padding-bottom: 0;
+}
+#community-wrap .joms-stream__body {
+  padding: 24px;
+}
+#community-wrap .joms-stream__body b,
+#community-wrap .joms-stream__body strong {
+  font-weight: 500;
+}
+#community-wrap .joms-stream__body > .embedly-card > .embedly-card-hug {
+  background: transparent;
+  border: 1px solid #2d2d2d;
+  border-radius: 16px;
+  padding: 24px !important;
+}
+#community-wrap .joms-stream__body > .embedly-card > .embedly-card-hug .article .hdr {
+  margin-bottom: 12px;
+  padding: 0;
+}
+#community-wrap .joms-comment__reply {
+  background: #ffffff;
+  border-radius: 0 0 16px 16px;
+  padding: 24px 24px;
+}
+#community-wrap .joms-comment__reply .joms-icon {
+  margin-left: 12px;
+  margin-top: 10px;
+}
+#community-wrap .joms-stream__status {
+  background: #ffffff;
+  border-top: 1px dotted #2d2d2d;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  padding: 24px 24px;
+}
+#community-wrap .joms-stream__time,
+#community-wrap .joms-comment__time {
+  color: #5a5a5a;
+  font-size: 13px;
+}
+#community-wrap .cStream-Quote {
+  border: 0;
+  padding: 0;
+}
+#community-wrap .joms-comment__user {
+  color: #1f1f1f;
+  font-weight: 500;
+}
+#community-wrap .joms-comment {
+  background: #ffffff;
+  font-size: 14px;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+#community-wrap .joms-comment .joms-comment__item {
+  padding-top: 12px;
+}
+#community-wrap .joms-comment .joms-comment__header {
+  padding: 0 24px 12px 24px;
+}
+#community-wrap .joms-comment .joms-comment__body {
+  padding-right: 16px;
+  padding-top: 0;
+}
+#community-wrap .joms-comment .joms-comment__actions {
+  padding: 0;
+}
+#community-wrap .joms-comment .joms-comment__actions a {
+  color: #4b4b4b;
+  font-size: 13px;
+}
+#community-wrap .joms-comment .joms-comment__actions a:hover,
+#community-wrap .joms-comment .joms-comment__actions a:focus,
+#community-wrap .joms-comment .joms-comment__actions a:active {
+  color: #4cbffa;
+}
+#community-wrap .joms-stream__status--mobile {
+  padding-right: 24px;
+}
+#community-wrap .joms-stream__status--mobile a {
+  color: #878787;
+}
+#community-wrap .joms-stream__status--mobile a:hover,
+#community-wrap .joms-stream__status--mobile a:focus,
+#community-wrap .joms-stream__status--mobile a:active {
+  color: #4cbffa;
+}
+#community-wrap .joms-stream__actions {
+  padding: 0 24px 12px 24px;
+}
+#community-wrap .joms-stream__actions .joms-button--liked,
+#community-wrap .joms-stream__actions .joms-button--share {
+  background: #f7f7f7;
+  border-radius: 30px;
+  color: #4b4b4b;
+  display: inline-block;
+  padding: 1px 13px;
+}
+#community-wrap .joms-stream__actions .joms-button--liked span,
+#community-wrap .joms-stream__actions .joms-button--share span {
+  position: relative;
+  top: 2px;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-stream__actions .joms-button--liked,
+  #community-wrap .joms-stream__actions .joms-button--share {
+    background: transparent;
+    padding: 0;
+  }
+}
+#community-wrap .joms-stream__actions .joms-button--liked span::before,
+#community-wrap .joms-stream__actions .joms-button--share span::before {
+  content: "\f118";
+  line-height: 1.45;
+  color: #4cbffa;
+  font-family: FontAwesome;
+  font-size: 15px;
+  float: right;
+  margin-left: 4px;
+}
+#community-wrap .joms-stream__actions .joms-button--liked svg,
+#community-wrap .joms-stream__actions .joms-button--share svg {
+  display: none;
+}
+#community-wrap .joms-stream__actions .joms-button--liked.liked span,
+#community-wrap .joms-stream__actions .joms-button--share.liked span {
+  color: #4b4b4b;
+}
+#community-wrap .joms-stream__actions .joms-button--liked.liked span::before,
+#community-wrap .joms-stream__actions .joms-button--share.liked span::before {
+  content: "\f119";
+  color: #ff1155;
+}
+#community-wrap .joms-stream__actions .joms-button--liked:hover,
+#community-wrap .joms-stream__actions .joms-button--share:hover,
+#community-wrap .joms-stream__actions .joms-button--liked:focus,
+#community-wrap .joms-stream__actions .joms-button--share:focus,
+#community-wrap .joms-stream__actions .joms-button--liked:active,
+#community-wrap .joms-stream__actions .joms-button--share:active {
+  background: #ededed;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-stream__actions .joms-button--liked:hover,
+  #community-wrap .joms-stream__actions .joms-button--share:hover,
+  #community-wrap .joms-stream__actions .joms-button--liked:focus,
+  #community-wrap .joms-stream__actions .joms-button--share:focus,
+  #community-wrap .joms-stream__actions .joms-button--liked:active,
+  #community-wrap .joms-stream__actions .joms-button--share:active {
+    background: transparent;
+    padding: 0;
+  }
+}
+#community-wrap .joms-stream__actions .joms-button--share span::before {
+  content: "\f1e0";
+}
+#community-wrap .joms-stream__meta {
+  color: #bbbbbb;
+  line-height: 1.3;
+  padding-right: 12px;
+  padding-left: 16px;
+}
+#community-wrap .joms-stream__meta a:first-child {
+  font-weight: 500;
+}
+#community-wrap .joms-stream__user {
+  font-weight: 500;
+}
+#community-wrap .joms-stream__time {
+  color: #bbbbbb;
+  font-size: 14px;
+  line-height: 1;
+}
+#community-wrap .joms-media {
+  background: #ffffff;
+  border: 1px solid #2d2d2d;
+  border-radius: 16px;
+  padding: 24px;
+}
+#community-wrap .joms-media .joms-text--title {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+#community-wrap .joms-media .joms-text--title a {
+  color: #4cbffa;
+  font-weight: 500;
+}
+#community-wrap .joms-media .joms-text--title a:hover,
+#community-wrap .joms-media .joms-text--title a:focus,
+#community-wrap .joms-media .joms-text--title a:active {
+  color: #1aadf9;
+}
+#community-wrap .joms-media span,
+#community-wrap .joms-media p {
+  font-size: 14px;
+}
+#community-wrap .joms-media ul li {
+  font-size: 14px;
+}
+#community-wrap .joms-media ul li svg {
+  fill: #4cbffa;
+  height: 13px;
+}
+#community-wrap .joms-focus {
+  margin-bottom: 32px;
+}
+#community-wrap .joms-focus__header {
+  background: linear-gradient(transparent, #000000);
+}
+#community-wrap .joms-focus__link {
+  border: 0;
+  border-radius: 0 0 16px 16px;
+}
+#community-wrap .joms-focus__link li {
+  border: 0;
+  color: #5a5a5a;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: right;
+  width: auto;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-focus__link li {
+    padding-bottom: 6px;
+    padding-top: 6px;
+  }
+  #community-wrap .joms-focus__link li.half {
+    width: 50%;
+  }
+  #community-wrap .joms-focus__link li.full {
+    width: 100%;
+  }
+}
+#community-wrap .joms-focus__link li a {
+  color: #5a5a5a;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 13px;
+}
+#community-wrap .joms-focus__link li a .joms-icon {
+  display: none;
+}
+#community-wrap .joms-focus__link li .joms-text--light {
+  background: #f7f7f7;
+  border-radius: 50%;
+  color: #2d2d2d;
+  float: right;
+  text-align: center;
+  font-weight: 500;
+  margin-left: 6px;
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-focus__link li .joms-text--light {
+    background: transparent;
+    height: auto;
+    width: auto;
+  }
+}
+#community-wrap .joms-js--message-item .joms-stream__time {
+  padding: 5px 0;
+  line-height: 1.6;
+}
+#community-wrap .joms-js--message-item .joms-stream__time a {
+  color: #878787;
+}
+#community-wrap .joms-js--message-item .joms-stream__time a:hover,
+#community-wrap .joms-js--message-item .joms-stream__time a:focus,
+#community-wrap .joms-js--message-item .joms-stream__time a:active {
+  color: #4cbffa;
+}
+#community-wrap .joms-js--message-item .joms-list--message__time {
+  color: #5a5a5a;
+  font-size: 13px;
+}
+#community-wrap .jomsocial .joms-tab__bar a {
+  color: #ffffff;
+}
+#community-wrap .jomsocial .joms-tab__bar a.active {
+  background: #4cbffa;
+  color: #ffffff;
+}
+#community-wrap .joms-list--friend .joms-list__button--dropdown a {
+  color: #4cbffa !important;
+}
+#community-wrap .joms-subnav--desktop {
+  background: transparent;
+  border: 0;
+}
+#community-wrap .joms-subnav--desktop li {
+  border-top: 1px solid #878787;
+  border-bottom: 1px solid #878787;
+}
+#community-wrap .joms-subnav--desktop li.joms-right:first-child {
+  border-left: 1px solid #878787;
+}
+#community-wrap .joms-subnav--desktop li:first-child {
+  border-right: 1px solid #878787;
+}
+#community-wrap .joms-gallery .joms-gallery__item {
+  margin-bottom: 32px;
+}
+#community-wrap .joms-gallery .joms-gallery__item:hover .joms-gallery__thumbnail img {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#community-wrap .joms-gallery .joms-gallery__thumbnail {
+  max-width: none;
+}
+#community-wrap .joms-gallery .joms-gallery__thumbnail .joms-relative {
+  background: #2d2d2d;
+  border: 12px solid #2d2d2d;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+#community-wrap .joms-gallery .joms-gallery__thumbnail .joms-relative img {
+  border-radius: 10px;
+  max-width: none;
+}
+#community-wrap .joms-gallery .joms-gallery__title {
+  color: #ffffff;
+  font-size: 18px;
+}
+#community-wrap .joms-gallery .joms-gallery__title:hover,
+#community-wrap .joms-gallery .joms-gallery__title:focus,
+#community-wrap .joms-gallery .joms-gallery__title:active {
+  color: #4cbffa;
+}
+#community-wrap .joms-gallery .joms-gallery__status,
+#community-wrap .joms-gallery .joms-gallery__meta {
+  color: #bbbbbb;
+  font-size: 13px;
+}
+#community-wrap .joms-gallery .joms-gallery__status svg,
+#community-wrap .joms-gallery .joms-gallery__meta svg {
+  fill: #bbbbbb;
+}
+#community-wrap .joms-page {
+  padding: 32px;
+  border-radius: 16px;
+}
+@media (max-width: 767px) {
+  #community-wrap .joms-page {
+    padding: 24px;
+  }
+}
+#community-wrap .joms-page .joms-text--title {
+  margin-bottom: 24px;
+}
+#community-wrap .joms-page .joms-input--search {
+  margin-bottom: 6px;
+}
+.joms-phototag__input input {
+  border-color: #2d2d2d;
+  height: 50px !important;
+}
+div.joms-module__body {
+  background: transparent;
+  padding: 24px;
+}
+div.t3-wrapper .joms-sidebar div.joms-module--hellome {
+  margin: -24px;
+  position: relative;
+}
+div.t3-wrapper .joms-sidebar div.joms-module--hellome .joms-hcard {
+  max-width: 100%;
+}
+div.t3-wrapper .joms-sidebar div.joms-module--hellome .joms-list--hellome {
+  padding: 24px 0;
+}
+div.t3-wrapper .joms-sidebar div.joms-module--hellome .joms-list--hellome li {
+  border: 0;
+  color: #1f1f1f;
+  font-size: 14px;
+  padding: 24px 24px;
+}
+div.t3-wrapper .joms-sidebar div.joms-module--hellome .joms-list--hellome li span {
+  text-align: left;
+}
+div.t3-wrapper .joms-sidebar div.joms-module--hellome .joms-list--hellome li a {
+  background: #f7f7f7;
+  border-radius: 16px;
+  color: #2d2d2d;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 3px 6px;
+}
+div.t3-wrapper .joms-sidebar div.joms-module--hellome .joms-action--hellome {
+  background-image: -webkit-linear-gradient(top, #5bc4fa 0%, #4cbffa 100%);
+  background-image: -o-linear-gradient(top, #5bc4fa 0%, #4cbffa 100%);
+  background-image: linear-gradient(to bottom, #5bc4fa 0%, #4cbffa 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc4fa', endColorstr='#ff4cbffa', GradientType=0);
+  border-spacing: 0;
+  border-radius: 16px 16px 0 0;
+  position: absolute;
+  top: -42px;
+  right: 0;
+  overflow: hidden;
+}
+div.t3-wrapper .joms-sidebar div.joms-module--hellome .joms-action--hellome .joms-button--hellome {
+  border-radius: 0;
+  color: #ffffff;
+  line-height: 1;
+  padding: 13px;
+  font-weight: 500;
+}
+div.t3-wrapper .joms-sidebar div.joms-module--hellome .joms-action--hellome .joms-button--hellome svg {
+  fill: #ffffff;
+}
+div.t3-wrapper .t3-masthead .joms-module--hellome .joms-list--hellome li {
+  text-align: right;
+}
+div.t3-wrapper .joms-media__calendar .month {
+  background: #5cb85c;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 13px;
+}
+div.t3-wrapper .joms-media__calendar .date {
+  border-color: #2d2d2d;
+  color: #1f1f1f;
+  line-height: 1;
+}
+.joms-hcard__info-content h3.reset-gap {
+  color: #ffffff;
+}
+.com_community.view-groups .joms-form__group label.joms-checkbox,
+.com_community.view-events .joms-form__group label.joms-checkbox {
+  margin-left: 20px;
+}
+div#fb-root {
+  margin-top: 0;
+  position: absolute;
+}
+.joms-no-touch .joms-icon--add {
+  cursor: pointer;
+}
+.joms-login .login-facebook {
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  max-width: 320px;
+}
+.joms-login .login-facebook > span {
+  background: #3b5998;
+  color: #ffffff;
+  display: block;
+  position: relative;
+  height: 48px;
+  line-height: 48px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.joms-login .login-facebook > span .fa {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  float: right;
+  font-size: 18px;
+  height: 48px;
+  line-height: 48px;
+  width: 48px;
+}
+.joms-login .login-facebook .fb-login-button,
+.joms-login .login-facebook .fb-login-button > span,
+.joms-login .login-facebook .fb-login-button > span > iframe {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.joms-login > h6 {
+  color: #000000;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.joms-login .joms-box {
+  font-size: 14px;
+  margin-top: 16px;
+  text-align: right;
+}
+.joms-login .joms-box:before,
+.joms-login .joms-box:after {
+  content: " ";
+  display: table;
+}
+.joms-login .joms-box:after {
+  clear: both;
+}
+.joms-login .joms-box > div {
+  display: inline-block;
+}
+.joms-login .joms-box > div input,
+.joms-login .joms-box > div span {
+  margin-top: 0;
+}
+.joms-login .joms-box > a {
+  color: #f0ad4e;
+  float: left;
+}
+.joms-login .joms-input--append .joms-input[type="text"],
+.joms-login .joms-input--append .joms-input[type="password"] {
+  border-width: 2px;
+  background: #2d2d2d;
+  padding: 12px;
+  height: 48px;
+}
+.joms-login .joms-input--append .joms-input[type="text"]::-moz-placeholder,
+.joms-login .joms-input--append .joms-input[type="password"]::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
+.joms-login .joms-input--append .joms-input[type="text"]:-ms-input-placeholder,
+.joms-login .joms-input--append .joms-input[type="password"]:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+.joms-login .joms-input--append .joms-input[type="text"]::-webkit-input-placeholder,
+.joms-login .joms-input--append .joms-input[type="password"]::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+.joms-login .joms-checkbox .regular-checkbox {
+  background-color: #2d2d2d;
+  border: 1px solid #1f1f1f;
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: absolute;
+  margin-right: 0;
+  right: 0px;
+  top: 0px;
+}
+.joms-login .joms-checkbox #joms-remember {
+  display: none;
+}
+.joms-login .joms-checkbox label {
+  font-weight: normal;
+  padding-right: 28px;
+}
+.joms-login .joms-checkbox input:checked + .regular-checkbox {
+  background-color: #202020;
+  border: 1px solid #050505;
+  color: #4b4b4b;
+}
+.joms-login .joms-checkbox input:checked + .regular-checkbox:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: -2px;
+  right: 5px;
+  color: #4b4b4b;
+  line-height: 20px;
+}
+.joms-login .btn {
+  margin-top: 16px;
+  height: 48px;
+  line-height: 48px;
+  padding: 0;
+}
+.joms-login .help-account {
+  margin-top: 32px;
+  text-align: center;
+}
+.joms-login .help-account a {
+  background: #f7f7f7;
+  border-radius: 16px;
+  color: #4b4b4b;
+  display: inline-block;
+  line-height: 32px;
+  height: 32px;
+  font-size: 14px;
+  margin: 0 2px;
+  width: 32px;
+}
+.joms-login .help-account a:hover,
+.joms-login .help-account a:focus,
+.joms-login .help-account a:active {
+  background: #dedede;
+}
+.head-right .joms-notifications {
+  background: transparent;
+  display: block;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.head-right .joms-notifications a {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  position: relative;
+  text-align: center;
+  margin-right: 12px;
+  width: 48px;
+}
+.head-right .joms-notifications a:hover,
+.head-right .joms-notifications a:focus,
+.head-right .joms-notifications a:active {
+  background: rgba(255, 255, 255, 0.2);
+}
+.head-right .joms-notifications a svg {
+  fill: #ffffff;
+  margin-top: -4px;
+}
+.head-right .joms-notifications a span {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  line-height: 1;
+  padding: 4px 6px;
+  background: #c00;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.head-right .joms-notifications a span:empty {
+  display: none;
+}
+.joms-button--hellome {
+  position: relative;
+}
+.joms-button--hellome span > small {
+  position: absolute;
+  top: 3px;
+  left: 6px;
+  line-height: 1;
+  padding: 4px 6px;
+  background: #c00;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.joms-button--hellome span > small:empty {
+  display: none;
+}
+html[dir="rtl"] #community-wrap .joms-ribbon__wrapper .joms-ribbon {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}

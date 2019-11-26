@@ -1,0 +1,100 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+ 
+// VARIABLES & MIXINS
+// ------------------
+@import "../../../less/vars.less"; // Modify this for custom colors, font-sizes, etc
+
+
+// ----------------------------------------
+// GALLERY STYLE
+// ----------------------------------------
+.acm-gallery {
+  text-align: center;
+
+  .item__col {
+    .item {
+      + .item {
+        margin-top: @grid-gutter-width;
+      }
+    }
+  }
+
+  .acm-gallery-slide {
+    margin-top: @grid-gutter-width * 2;
+
+    .owl-stage-outer {
+      margin: -@grid-gutter-width / 2;
+      padding: @grid-gutter-width / 2;
+    }
+  }
+
+  // Image
+  .img {
+    background: @white;
+    border: @grid-gutter-width / 2 solid @white;
+    border-radius: 28px;
+    .transition(500ms all);
+
+    img {
+      background: @white;
+      border-radius: @grid-gutter-width / 2;
+      width: 100%;
+    }
+
+    &:hover {
+      transform: rotate(0)!important;
+      -webkit-transform: rotate(0)!important;
+    }
+  }
+
+  // Nav Control
+  .owl-nav {
+    // Tablet/mobile view
+    @media (max-width: 1300px) {
+      margin-top: @grid-gutter-width;
+      text-align: center;
+    }
+
+    > div {
+      background-image: url('../ico/left.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-color: rgba(0,0,0,0.1);
+      border-radius: @border-radius-base;
+      display: inline-block;
+      top: 50%;
+      text-align: center;
+      right: 100%;
+      margin-right: @grid-gutter-width;
+      position: absolute;
+      margin-top: -(@t3-global-margin);
+      height: @t3-global-padding * 2;
+      width: @t3-global-padding * 2;
+
+      // Tablet/mobile view
+      @media (max-width: 1300px) {
+        position: static;
+        margin: 0;
+      }
+
+      &.owl-next {
+        background-image: url('../ico/right.png');
+        right: auto;
+        left: 100%;
+        margin-left: @grid-gutter-width;
+      }
+
+      // Hover
+      &:hover {
+        background-color: @brand-primary;
+      }
+
+      // Icon
+      .fa {
+        display: none;
+      }
+    }
+  }
+}

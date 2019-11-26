@@ -1,0 +1,219 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+ 
+// -------------------------------
+// STYLE FEATURE INTRO 1
+// -------------------------------
+.acm-features.style-1 {
+  // Owl Slideshow
+  .owl-stage-outer {
+    padding-bottom: @grid-gutter-width * 2;
+  }
+
+  // Nav Control
+  .owl-nav {
+    // Tablet/mobile view
+    @media (max-width: 1300px) {
+      text-align: center;
+    }
+
+    > div {
+      background-image: url('../ico/left.png');
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-color: @brand-light;
+      border-radius: @border-radius-base;
+      display: inline-block;
+      top: 50%;
+      text-align: center;
+      right: 100%;
+      margin-right: @grid-gutter-width / 2;
+      position: absolute;
+      margin-top: -(@t3-global-margin);
+      height: @t3-global-padding * 2;
+      width: @t3-global-padding * 2;
+
+      // Tablet/mobile view
+      @media (max-width: 1300px) {
+        position: static;
+        margin: 0;
+      }
+
+      &.owl-next {
+        background-image: url('../ico/right.png');
+        right: auto;
+        left: 100%;
+        margin-left: @grid-gutter-width / 2;
+
+        // Tablet/mobile view
+        @media (max-width: 1300px) {
+          margin-left: @grid-gutter-width;
+        }
+      }
+
+      // Hover
+      &:hover {
+        background-color: @brand-primary;
+        background-position: center top;
+      }
+
+      // Icon
+      .fa {
+        display: none;
+      }
+    }
+  }
+  
+  // Feature Title
+  .features-intro {
+    padding-right: @grid-gutter-width;
+
+    // Mobile view
+    @media (max-width: @screen-xs-max) {
+      padding-right: 0;
+    }
+  }
+
+  .acm-features-title {
+    color: @gray-darker;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: @t3-global-margin;
+
+    // Mobile view
+    @media (max-width: @screen-xs-max) {
+      font-size: 22px;
+    }
+  }
+  
+  .features-content {
+    background: @white;
+    padding: @t3-global-padding;
+
+    h3 {
+      margin-top: 0;
+      line-height: 1.5;
+    }
+  }
+
+  // Carousel
+  .acm-feature-slide {
+    margin-left: -@grid-gutter-width / 2;
+    margin-right: -@grid-gutter-width / 2;
+
+    .owl-carousel {
+      padding: 0;
+    }
+  }
+
+  .owl-item {
+    padding: 0 @grid-gutter-width / 2;
+  }
+
+  // Feature content
+  .features-item-inner {
+    background: @white;
+    border-radius: @border-radius-large * 2;
+    padding: @t3-global-padding * 2;
+    padding-bottom: @t3-global-padding * 3;
+    text-align: center;
+    position: relative;
+
+    // Image
+    .features-img {
+      background: @white;
+      margin: auto;
+      max-width: @grid-gutter-width * 9;
+
+      .img {
+        background: @white;
+        border: @grid-gutter-width / 2 solid @white;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        z-index: 10;
+      }
+    }
+
+    // Mask Image
+    .mask-image {
+      background-color: @brand-primary;
+      background-size: cover;
+      border-radius: @border-radius-large * 2 @border-radius-large * 2 0 0;
+      height: @grid-gutter-width * 5.5;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+
+      &::before {
+        background-image: url('../pattern/primary.png');
+        content: "";
+        left: 0;
+        top: 100%;
+        position: absolute;
+        height: 16px;
+        width: 100%;
+      }
+
+      &.bg-blue::before {
+        background-image: url('../pattern/blue.png');
+      }
+
+      &.bg-green::before {
+        background-image: url('../pattern/green.png');
+      }
+
+
+      &.bg-red::before {
+        background-image: url('../pattern/red.png');
+      }
+
+
+      &.bg-yellow::before {
+        background-image: url('../pattern/yellow.png');
+      }
+
+      &.bg-orange::before {
+        background-image: url('../pattern/orange.png');
+      }
+
+      &.bg-pink::before {
+        background-image: url('../pattern/pink.png');
+      }
+
+      &.bg-purple::before {
+        background-image: url('../pattern/purple.png');
+      }
+    }
+
+    // Title
+    h3 {
+      color: @brand-primary;
+      font-weight: 500;
+      margin-top: @t3-global-margin;
+      margin-bottom: @t3-global-margin / 2;
+    }
+
+    // Info
+    > span {
+      color: @brand-meta;
+      display: block;
+      margin-bottom: @grid-gutter-width;
+      font-size: @font-size-h5;
+    }
+
+    // Link
+    .feature-action {
+      background: @body-bg;
+      border-radius: @border-radius-large;
+      border: @grid-gutter-width / 2 solid @body-bg;
+      position: absolute;
+      left: 50%;
+      top: 100%;
+      transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+    }
+  }
+}

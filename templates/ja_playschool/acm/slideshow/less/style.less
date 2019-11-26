@@ -1,0 +1,192 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+ 
+// VARIABLES & MIXINS
+// ------------------
+@import "../../../less/vars.less"; // Modify this for custom colors, font-sizes, etc
+
+// ------------------------------------------------
+// SLIDESHOW STYLE OWL
+// ------------------------------------------------
+.acm-slideshow {
+  @media screen and (min-width: @screen-sm) {
+    min-height: 384px;
+  }
+
+  @media screen and (min-width: @screen-md) {
+    min-height: 496px;
+  }
+
+  @media screen and (min-width: @screen-lg) {
+    min-height: 600px;
+  }
+
+  @media screen and (min-width: 1600px) {
+    min-height: 800px;
+  }
+
+  .owl-carousel {
+    cursor: move;
+    padding: 0;
+    overflow: hidden;
+
+    .item {
+      position: relative;
+      overflow: hidden;
+
+      .img-bg {
+        max-width: 100%;
+      }
+
+      .slider-img {
+        width: 100%;
+        height: auto;
+      }
+
+      .slider-thumb {
+        width: auto;
+      }
+
+      .slider-content {
+        display: block;
+        color: @white;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        padding: 0;
+        margin-left: 0;
+        height: auto;
+        z-index: 2;
+        transform: translate(-50%,-50%);
+          -webkit-transform: translate(-50%,-50%);
+
+        h1 {
+          margin-bottom: @grid-gutter-width;
+          margin-top: 0;
+          text-transform: uppercase;
+          text-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+          // Tablet view
+          @media (max-width: @screen-sm-max) {
+            font-size: @font-size-h3;
+          }
+
+          // Mobile view
+          @media (max-width: @screen-xs-max) {
+            font-size: @font-size-h4 * 1.5;
+          }
+        }
+
+        // Button
+        .btn {
+          // Tablet view
+          @media (max-width: @screen-sm-max) {
+            padding: @padding-base-vertical @padding-base-horizontal;
+            font-size: @font-size-h4;
+          }
+        }
+      }
+
+      .slider-content-inner {
+        max-width: @container-lg / 1.5;
+
+        a {
+          color: @white;
+        }
+      }
+    }
+
+    // Nav Control
+    .owl-nav {
+      > div {
+        background-image: url('../ico/left.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: rgba(255,255,255,0.5);
+        border-radius: @border-radius-base;
+        top: 50%;
+        text-align: center;
+        left: @grid-gutter-width;
+        position: absolute;
+        margin-top: -(@t3-global-margin);
+        height: @t3-global-padding * 2;
+        width: @t3-global-padding * 2;
+
+        // Mobile view
+        @media (max-width: @screen-xs-max) {
+          left: @t3-global-margin;
+        }
+
+        &.owl-next {
+          background-image: url('../ico/right.png');
+          right: @grid-gutter-width;
+          left: auto;
+
+          // Mobile view
+          @media (max-width: @screen-xs-max) {
+            right: @t3-global-margin;
+          }
+        }
+
+        // Hover
+        &:hover {
+          background-color: @brand-primary;
+        }
+
+        // Icon
+        .fa {
+          display: none;
+        }
+      }
+    }
+
+    // Dot Control
+    .owl-dots {
+      bottom: @t3-global-margin * 6;
+      left: 0;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+
+      // Medium view
+      @media (max-width: @screen-md-max) {
+        bottom: @t3-global-margin;
+      }
+
+      // Tablet view
+      @media (max-width: @screen-sm-max) {
+        bottom: @grid-gutter-width * 1.5;
+      }
+
+      // Mobile view
+      @media (max-width: @screen-xs-max) {
+        bottom: @t3-global-margin / 2;
+      }
+
+      > div {
+        display: inline-block;
+        margin: 0 @t3-global-margin / 4;
+
+        > span {
+          border: 1px solid @white;
+          border-radius: 50%;
+          display: inline-block;
+          height: 8px;
+          width: 8px;
+        }
+
+        &.active {
+          > span {
+            border-width: 2px;
+            position: relative;
+            top: 1px;
+            height: 10px;
+            width: 10px;
+          }
+        }
+      }
+    }
+  }
+}

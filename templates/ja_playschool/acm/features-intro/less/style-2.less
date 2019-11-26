@@ -1,0 +1,68 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+ 
+ 
+// ------------------------------------
+// FEATURES INTRO STYLE 2
+// ------------------------------------
+.acm-features {
+	&.style-2 {
+    margin-bottom: @grid-gutter-width;
+    text-align: center;
+
+    .row {
+      margin: 0;
+
+      > div {
+        padding: 0;
+
+        &.features-item {
+          padding: @grid-gutter-width * 4 @t3-global-padding * 2 0;
+
+          // Tablet view
+          @media (max-width: @screen-md-max) {
+            padding: @grid-gutter-width * 2 @grid-gutter-width * 2 0;
+          }
+          // Mobile view
+          @media (max-width: @screen-xs-max) {
+            padding: @grid-gutter-width;
+          }
+        }
+      }
+    }
+
+    // Content
+    .features-content {
+      // Label
+      .label-small {
+        margin-bottom: @grid-gutter-width / 2;
+      }
+
+      // Title
+      h2 {
+        text-transform: uppercase;
+
+        a {
+          color: @headings-color;
+
+          &:hover,&:focus,&:active {
+            color: @brand-primary;
+          }
+        }
+      }
+
+      // Description
+      p {
+        margin-bottom: 0;
+      }
+
+      // Button
+      .btn {
+        margin-top: @t3-global-margin;
+      }
+    }
+  }
+}
+
+
